@@ -537,6 +537,7 @@ padding: 0px 0px 0px 0px;
 
 .slidercola-item {
 	text-align: center;
+	position: relative;
 }
 
 .slidercola .slick-dots {
@@ -710,6 +711,13 @@ padding: 0px 0px 0px 0px;
 	color: white;
 }
 @media(max-width:767px){
+	.wrapper__footer-conteiner{
+		min-height: 75px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		line-height: 20px;
+	}
 	.footer__contact a,b {
 		font-size: 14px;
 		color: white;
