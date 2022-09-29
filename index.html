@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>учим вместе</title>
+</head>
+
+<body>
+	<div class="conteiner">
+		<div class="conteiner__wrapper">
+			<div class="wrapper__head-conteiner">
+				<div class="head-conteiner__wrap lock-padding" id="heads">
+					<!-- шапкаобычная -->
+					<div class="head__burger">
+						<span>
+						</span>
+					</div>
+					<nav class="burger__menu">
+						<ul class="header__list">
+							<li>
+								<a href="#" class="header__link">О нас</a>
+							</li>
+							<li>
+								<a href="#" class="header__link">Заказать</a>
+							</li>
+							<li>
+								<a href="#" class="header__link">Распродажа</a>
+							</li>
+							<li>
+								<a href="#" class="header__link">Рестораны</a>
+							</li>
+							<li>
+								<a href="#" class="header__link">Вакансии</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="wrapper__body-conteiner">
+				<div class="body-conteiner__wrap">
+					<section class="body__nav-pizza">
+						<form class="pizza__form-search" action="">
+							<input type="search" name="search" value="" placeholder="Поиск по сайту"
+								class="pizza__search-submit">
+							<button type="submit" name="search" class="pizza__search-btn">Поиск</button>
+							<b class="pizza__category">Категории</b>
+							<p><input type="checkbox" name="check">Четыре сыра</p>
+							<p><input type="checkbox" name="check">С курицей</p>
+							<p><input type="checkbox" name="check">Диетическая</p>
+							<p><input type="checkbox" name="check">Класическая</p>
+							<input type="text" list="input" placeholder="Выбор из списка" class="pizza__search-submit">
+							<datalist id="input">
+								<option value="Маргарита">Маргарита</option>
+								<option value="Сырная мери">Сырная мери</option>
+								<option value="Быстрый томат">Быстрый томат</option>
+								<option value="Мясное чудо">Мясное чудо</option>
+								<option value="BBQ">BBQ</option>
+								<option value="Мясное ассорти">Мясное ассорти</option>
+								<option value="">Мясное ассорти</option>
+							</datalist>
+							<b class="pizza__category">Цена</b>
+							<p><input type="radio" name="check">По убыванию цены</p>
+							<p><input type="radio" name="check">По возрастанию цены</p>
+							<p><input type="radio" name="check">Сезонные скидки</p>
+							<p><input type="radio" name="check">Сезонные новинки</p>
+							<button type="submit" name="search" class="pizza__search-btn">Найти товар</button>
+						</form>
+						<div class="nav-pizza__img">
+							<picture>
+								<img src="./img/pizzasearch.jpg" alt="" width="170px">
+								<img src="./img/pizzaaction.jpg" alt="" width="170px">
+							</picture>
+						</div>
+					</section>
+					<div class="body__pizza-content">
+						<div class="pizza-content__wrap">
+							<div class="body-conteiner__mobail">
+								<div class="mobail__wraper">
+									<input type="text" list="input" placeholder="Выбор из списка" class="mobail__wraper-pizza">
+									<datalist id="input">
+										<option value="Маргарита">Маргарита</option>
+										<option value="Сырная мери">Сырная мери</option>
+										<option value="Быстрый томат">Быстрый томат</option>
+										<option value="Мясное чудо">Мясное чудо</option>
+										<option value="BBQ">BBQ</option>
+										<option value="Мясное ассорти">Мясное ассорти</option>
+										<option value="">Мясное ассорти</option>
+									</datalist>
+									<input type="text" list="inputs" placeholder="Фильтр" class="mobail__wraper-pizza">
+									<datalist id="inputs">
+										<option value="По убыванию цены">По убыванию цены</option>
+										<option value="По возрастанию цены">По возрастанию цены</option>
+										<option value="Сезонные скидки">Сезонные скидки</option>
+										<option value="Сезонные новинки">Сезонные новинки</option>
+									</datalist>
+									<button type="submit" name="search" class="mobail__wraper-pizza">Найти товар</button>
+								</div>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="slider">
+								<div class="slider-item">
+									<img src="./img/pizzamenu1.jpg" alt="">
+									<a href="#clasic" class="popup-link" id="link-a"></a>
+								</div>
+								<div class="slider-item">
+									<img src="./img/pizzamenu2.jpg" alt="">
+									<a href="#piperony" class="popup-link" id="link-a"></a>
+								</div>
+								<div class="slider-item">
+									<img src="./img/pizzamenu3.jpg" alt="">
+									<a href="#meet" class="popup-link" id="link-a"></a>
+								</div>
+								<div class="slider-item">
+									<img src="./img/pizzamenu4.jpg" alt="">
+									<a href="#vegetable" class="popup-link" id="link-a"></a>
+								</div>
+								<div class="slider-item">
+									<img src="./img/pizamenu5.jpg" alt="">
+									<a href="#diets" class="popup-link" id="link-a"></a>
+								</div>
+								<div class="slider-item">
+									<img src="./img/pizzamenu6.jpg" alt="">
+									<a href="#foochezz" class="popup-link" id="link-a"></a>
+								</div>
+							</div>
+							<!-- slider 2 -->
+							<div class="slidercola">
+								<div class="slidercola-item">
+									<img src="./img/zakyska1.jpg" alt="">
+								</div>
+								<div class="slidercola-item">
+									<img src="./img/zakyska2.jpg" alt="">
+								</div>
+								<div class="slidercola-item">
+									<img src="./img/zakyska3.jpg" alt="">
+								</div>
+								<div class="slidercola-item">
+									<img src="./img/zakyska4.jpg" alt="">
+								</div>
+								<div class="slidercola-item">
+									<img src="./img/zakyska5.jpg" alt="">
+								</div>
+								<div class="slidercola-item">
+									<img src="./img/zakyska6.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="clasic" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#heads" class="popup__close close-popup">X</a>
+						<div class="popup__title">
+							<h2>Пицца: Класическая</h2>
+						</div>
+						<div class="popup__text">
+							<ul class="popup-info">
+								<li>Что входит в состав:</li>
+								<li>два вида сыра - гауда и российский</li>
+								<li>курица - бройлер</li>
+								<li>грибы - шампиньены</li>
+								<li>соус Класический - майонез и кисло-сладкий</li>
+								<li>Колории: 563кл</li>
+								<li>Размер: 25см / 35см</li>
+							</ul>
+							<div class="popup-sum">
+								<p>цена: 1367руб</p>
+								<a href="#">Заказать 25см</a>
+								<a href="#">Заказать 35см</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="piperony" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#heads" class="popup__close close-popup">X</a>
+						<div class="popup__title">
+							<h2>Пицца: Пиперони</h2>
+						</div>
+						<div class="popup__text">
+							<ul class="popup-info">
+								<li>Что входит в состав:</li>
+								<li>один вид сыра - гауда</li>
+								<li>Колбаса - Пиперони</li>
+								<li>соус Класический - кисло-сладкий</li>
+								<li>Колории: 623кл</li>
+								<li>Размер: 25см / 35см</li>
+							</ul>
+							<div class="popup-sum">
+								<p>цена: 1117руб</p>
+								<a href="#">Заказать 25см</a>
+								<a href="#">Заказать 35см</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="meet" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#heads" class="popup__close close-popup">X</a>
+						<div class="popup__title">
+							<h2>Пицца: Мясная</h2>
+						</div>
+						<div class="popup__text">
+							<ul class="popup-info">
+								<li>Что входит в состав:</li>
+								<li>один вид сыра - российский</li>
+								<li>Мясо - телятина молодая</li>
+								<li>соус Класический - майонезный</li>
+								<li>Колории: 803кл</li>
+								<li>Размер: 25см / 35см</li>
+							</ul>
+							<div class="popup-sum">
+								<p>цена: 1807руб</p>
+								<a href="#">Заказать 25см</a>
+								<a href="#">Заказать 35см</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="vegetable" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#heads" class="popup__close close-popup">X</a>
+						<div class="popup__title">
+							<h2>Пицца: Овощная</h2>
+						</div>
+						<div class="popup__text">
+							<ul class="popup-info">
+								<li>Что входит в состав:</li>
+								<li>два вида сыра - Моцарелла и Рокфор</li>
+								<li>Колбаса - говяжья</li>
+								<li>Овощное - ассорти</li>
+								<li>соус Класический - сальса</li>
+								<li>Колории: 450кл</li>
+								<li>Размер: 25см / 35см</li>
+							</ul>
+							<div class="popup-sum">
+								<p>цена: 1400руб</p>
+								<a href="#">Заказать 25см</a>
+								<a href="#">Заказать 35см</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="diets" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#heads" class="popup__close close-popup">X</a>
+						<div class="popup__title">
+							<h2>Пицца: Диетическая</h2>
+						</div>
+						<div class="popup__text">
+							<ul class="popup-info">
+								<li>Что входит в состав:</li>
+								<li>два вида сыра - Маасдам и бри</li>
+								<li>Колбаса - Свинина</li>
+								<li>Овощное - ассорти</li>
+								<li>без - соуса</li>
+								<li>Колории: 350кл</li>
+								<li>Размер: 25см / 35см</li>
+							</ul>
+							<div class="popup-sum">
+								<p>цена: 890руб</p>
+								<a href="#">Заказать 25см</a>
+								<a href="#">Заказать 35см</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="foochezz" class="popup">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#heads" class="popup__close close-popup">X</a>
+						<div class="popup__title">
+							<h2>Пицца: Четыре сыра</h2>
+						</div>
+						<div class="popup__text">
+							<ul class="popup-info">
+								<li>Что входит в состав:</li>
+								<li>четыре вида сыра - Маасдам - Чеддер - Гауда - Моцарелла</li>
+								<li>Колбаса - Свинина</li>
+								<li>Соус - кисло-сладкий - горчичьный</li>
+								<li>Колории: 623кл</li>
+								<li>Размер: 25см / 35см</li>
+							</ul>
+							<div class="popup-sum">
+								<p>цена: 1210руб</p>
+								<a href="#">Заказать 25см</a>
+								<a href="#">Заказать 35см</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper__footer-conteiner">
+				<div class="footer-conteiner__wrap">
+					<div class="footer__contact">
+						<a href="mailto:79013433548">Наш телефон:7(901)343-35-48</a>
+						<a href="mailto:igorkapis@gmail.com">По всем вопросам пишете на почту:igorkapis@gmail.com</a>
+						<b>Все права защищены</b>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="./jquere.js"></script>
+		<script src="./slick.min.js"></script>
+		<script src="./jos.js"></script>
+</body>
+
+</html>
